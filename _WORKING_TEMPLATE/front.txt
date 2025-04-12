@@ -1,0 +1,123 @@
+{{FrontSide}}
+{{Front}}
+
+<div>
+  {{#ChoiceA}}
+    <div>
+      <input type="checkbox" id="checkbox1">
+      <label id="choice1"></label>
+    </div>
+  {{/ChoiceA}}
+
+  {{#ChoiceB}}
+    <div>
+      <input type="checkbox" id="checkbox2">
+      <label id="choice2"></label>
+    </div>
+  {{/ChoiceB}}
+
+  {{#ChoiceC}}
+    <div>
+      <input type="checkbox" id="checkbox3">
+      <label id="choice3"></label>
+    </div>
+  {{/ChoiceC}}
+
+  {{#ChoiceD}}
+    <div>
+      <input type="checkbox" id="checkbox4">
+      <label id="choice4"></label>
+    </div>
+  {{/ChoiceD}}
+
+  {{#ChoiceE}}
+    <div>
+      <input type="checkbox" id="checkbox5">
+      <label id="choice5"></label>
+    </div>
+  {{/ChoiceE}}
+
+  {{#ChoiceF}}
+    <div>
+      <input type="checkbox" id="checkbox6">
+      <label id="choice6"></label>
+    </div>
+  {{/ChoiceF}}
+
+  {{#ChoiceG}}
+    <div>
+      <input type="checkbox" id="checkbox7">
+      <label id="choice7"></label>
+    </div>
+  {{/ChoiceG}}
+
+  {{#ChoiceH}}
+    <div>
+      <input type="checkbox" id="checkbox8">
+      <label id="choice8"></label>
+    </div>
+  {{/ChoiceH}}
+
+  {{#ChoiceI}}
+    <div>
+      <input type="checkbox" id="checkbox9">
+      <label id="choice9"></label>
+    </div>
+  {{/ChoiceI}}
+
+  {{#ChoiceJ}}
+    <div>
+      <input type="checkbox" id="checkbox10">
+      <label id="choice10"></label>
+    </div>
+  {{/ChoiceJ}}
+</div>
+
+<script>
+(function() {
+  // Collect the filled-in Choice fields (filtering out empty ones)
+  let arrayAnswers = [
+    "{{ChoiceA}}",
+    "{{ChoiceB}}",
+    "{{ChoiceC}}",
+    "{{ChoiceD}}",
+    "{{ChoiceE}}",
+    "{{ChoiceF}}",
+    "{{ChoiceG}}",
+    "{{ChoiceH}}",
+    "{{ChoiceI}}",
+    "{{ChoiceJ}}"
+  ].filter(Boolean);
+
+  // Shuffle the answers randomly
+  arrayAnswers.sort(() => Math.random() - 0.5);
+
+  // Get references to the label elements and assign text to those that exist
+  const labels = [
+    document.getElementById("choice1"),
+    document.getElementById("choice2"),
+    document.getElementById("choice3"),
+    document.getElementById("choice4"),
+    document.getElementById("choice5"),
+    document.getElementById("choice6"),
+    document.getElementById("choice7"),
+    document.getElementById("choice8"),
+    document.getElementById("choice9"),
+    document.getElementById("choice10")
+  ];
+
+  for (let i = 0; i < labels.length; i++) {
+    if (labels[i]) {
+      labels[i].textContent = arrayAnswers[i] || "";
+    }
+  }
+
+  // Set up event listeners for checkboxes: each one saves its state under a fixed key.
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach((checkbox, i) => {
+    checkbox.addEventListener('change', () => {
+      localStorage.setItem(`anki_checkbox_choice${i+1}`, checkbox.checked);
+    });
+  });
+})();
+</script>
