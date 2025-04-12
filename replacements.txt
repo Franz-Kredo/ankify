@@ -1,0 +1,8 @@
+
+// Only for questions
+Replace: disabled=""
+With:  
+
+
+Replace: /dist/images/answers_sprite-0d764f2477.png
+With:    https://du11hjcvx0uqb.cloudfront.net/dist/images/answers_sprite-0d764f2477.png

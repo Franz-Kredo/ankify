@@ -1,0 +1,10 @@
+/* body{background-color: blue !important;} */
+
+.question .answers .answer{
+    opacity: 1 !important;
+}
+
+
+.question_input[type="checkbox"]{
+cursor: pointer !important;
+}

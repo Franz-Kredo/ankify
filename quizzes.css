@@ -1,0 +1,108 @@
+body{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+body:has(.answer_arrow) {
+    padding-left: 100px !important;
+    background-color: lightblue !important;
+}
+
+.select_answer.answer_type{
+    float: left !important;
+}
+
+
+
+.question_holder{
+    
+    min-width: none !important;
+}
+
+.question{
+    min-width: 125px !important;
+    width: calc(100vw - 110px) !important;
+    max-width: 450px !important;
+}
+
+input[type="checkbox"] {
+   appearance: none !important;
+   -webkit-appearance: none !important;
+   -moz-appearance: none !important;
+   width: 20px !important;
+   height: 20px !important;
+   border: 2px solid purple !important;
+   border-radius: 4px !important;
+   background-color: white !important; /* Unchecked background */
+   cursor: pointer !important;
+   position: relative !important;
+ }
+ 
+ input[type="checkbox"]:checked {
+   background-color: green !important;
+   border-color: green !important;
+ }
+ 
+ input[type="checkbox"]:checked::after {
+   content: "\2713" !important;
+   position: absolute !important;
+   top: 0 !important;
+   left: 4px !important;
+   font-size: 16px !important;
+   color: white !important;
+ }
+ 
+
+
+
+.question .answers .answer{
+    opacity: 1 !important;
+}
+
+.question_input[type="checkbox"]{
+cursor: pointer !important;
+}
+
+
+.mobile .checkpoint {
+  background-color: pink !important;
+  color: black !important;
+  padding: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+
+
+/* RADIO BUTTONS */
+/* Custom styling for radio buttons */
+input[type="radio"] {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    border: 2px solid purple !important;
+    border-radius: 50% !important;  /* Circular shape */
+    background-color: white !important; /* Unchecked background */
+    cursor: pointer !important;
+    position: relative !important;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: green !important;
+    border-color: green !important;
+  }
+  
+  /* The inner dot for a checked radio button */
+  input[type="radio"]:checked::after {
+    content: "" !important;
+    display: block !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    position: absolute !important;
+    top: 4px !important;
+    left: 4px !important;
+  }
+  

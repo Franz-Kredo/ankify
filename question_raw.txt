@@ -1,0 +1,186 @@
+<div class="display_question question true_false_question correct" id="question_131361">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 3</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">true_false_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/8922/quizzes/21826/questions/131361" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">143347</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">A perfectly rational poker-playing agent never loses.</textarea>
+      </div>
+      <div id="question_131361_question_text" class="question_text user_content enhanced">
+          A perfectly rational poker-playing agent never loses.
+      </div>
+      <div class="answers">
+                <div class="answers_wrapper">
+                  
+    <div class="answer answer_for_
+         
+         
+         
+         
+          " id="answer_3752" style="" title="True.">
+
+
+      <span class="hidden id">3752</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-3752" name="question-131361" type="radio" class="question_input" aria-disabled="true" disabled="">&nbsp;
+      <label for="answer-3752">
+        <div class="answer_text">True</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 38px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="True">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">True</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="question_id">131361</span>
+      <span class="id">3752</span>
+      <span class="match_id"></span>
+    </div>
+      <div class="numerical_exact_answer answer_type" style="display:none;">
+        <span class="answer_exact">0</span> (with margin: <span class="answer_error_margin">0</span>)
+      </div>
+      <div class="numerical_precision_answer answer_type" style="display:none;">
+        <span class="answer_approximate">
+          0
+        </span> (with precision: <span class="answer_precision">10</span>)
+      </div>
+      <div class="numerical_range_answer answer_type" style="display:none;">
+        Between <span class="answer_range_start">0</span> and <span class="answer_range_end">0</span>
+      </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <span class="answer_weight" style="display: none;">0</span>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+    <div class="answer answer_for_
+         
+         
+         
+         
+         selected_answer correct_answer" id="answer_4618" style="" title="False. You selected this answer. This was the correct answer."><span class="answer_arrow correct" style="left: -128px; top: 5px;" id="answer_4618_arrow">Correct!</span>
+
+
+      <span class="hidden id">4618</span>
+
+    <div class="select_answer answer_type">
+        <input id="answer-4618" name="question-131361" type="radio" checked="" class="question_input" aria-disabled="true" disabled="" aria-describedby="answer_4618_arrow">&nbsp;
+      <label for="answer-4618">
+        <div class="answer_text">False</div>
+        <div class="answer_html"></div>
+      </label>
+    </div>
+    <div class="answer_type short_answer" style="display:none;">
+      <input name="answer_text" type="text" style="width: 47.5px; margin-bottom: 5px; color: rgb(0, 0, 0);" disabled="true" value="False">
+    </div>
+    <div class="answer_match matching_answer answer_type" style="display:none;">
+      <div class="answer_match_left">False</div>
+      <div class="answer_match_left_html" style="display:none;"></div>
+      <div class="answer_match_middle">&nbsp;</div>
+      <div class="answer_match_right">
+              
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div style="display: none;">
+      <span class="numerical_answer_type">exact_answer</span>
+      <span class="blank_id">none</span>
+      <span class="question_id">131361</span>
+      <span class="id">4618</span>
+      <span class="match_id"></span>
+    </div>
+      <div class="numerical_exact_answer answer_type" style="display:none;">
+        <span class="answer_exact">0</span> (with margin: <span class="answer_error_margin">0</span>)
+      </div>
+      <div class="numerical_precision_answer answer_type" style="display:none;">
+        <span class="answer_approximate">
+          0
+        </span> (with precision: <span class="answer_precision">10</span>)
+      </div>
+      <div class="numerical_range_answer answer_type" style="display:none;">
+        Between <span class="answer_range_start">0</span> and <span class="answer_range_end">0</span>
+      </div>
+    <div class="numerical_range_answer answer_type" style="display:none;">
+      <span class="answer_equation"></span>
+      <span class="margin" style="display: none;">
+        margin of error
+        <span style="font-size: 0.8em;">
+          +/-
+        </span>
+        <span class="answer_tolerance"></span>
+      </span>
+    </div>
+      <span class="answer_weight" style="display: none;">100</span>
+      <div class="quiz_comment ">
+        <div class="answer_comment">False, the agent might just have gotten bad cards.</div>
+        <div class="answer_comment_html"></div>
+      </div>
+
+    <div class="clear"></div>
+  </div>
+
+    <div class="clear"></div>
+
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
