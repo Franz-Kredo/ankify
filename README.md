@@ -11,9 +11,11 @@ Converts Canvas quiz to Anki Flashcards
     - Addon code: 1415523481
 
 ## How to use Ankify
-1. Open Canvas and find quiz answers
-2. For each question, copy div that looks like this <div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
-3. Insert each question into its own .txt within `answers_html`
-4. Run `ankify.py`
-5. Import to Anki from `anki_import` dir (remember to map each question when importing)
-6. Now you should have your flashcards
+1. Open Canvas and find quiz with the answers
+2. Find the element with the id of "questions" and copy it
+3. Paste the html into `/raw_html_splitter/raw_quiz_html/<name-of-your-file>.txt`
+4. Do this for all the quizzes you want to Ankify
+5. Copy all files within `/raw_html_splitter/split_quiz_html` to `/answers_html`
+6. Run `ankify.py`
+7. Import to Anki from `anki_import` dir (remember to map each question when importing)
+8. Now you should have your flashcards
