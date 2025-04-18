@@ -181,5 +181,5 @@ answers_html/*
 
 answers_html copy/*
 answer/index.html
-raw_html_splitter/raw_quiz_html
-raw_html_splitter/split_quiz_html
+raw_html_splitter/raw_quiz_html/*
+raw_html_splitter/split_quiz_html/*
