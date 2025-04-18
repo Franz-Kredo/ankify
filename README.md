@@ -5,6 +5,9 @@ Converts Canvas quiz to Anki Flashcards
 - Max 1 questions
 - Only checkboxes
 
+## Prerequisites
+- Have all choice labels on your custom Anki Card
+
 ## How to use Ankify
 1. Open Canvas and find quiz answers
 2. For each question, copy div that looks like this <div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">

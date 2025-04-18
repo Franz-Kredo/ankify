@@ -77,8 +77,10 @@ def main():
                 if input_tag.get('type') in ['radio', 'checkbox'] and input_tag.has_attr('checked'):
                     del input_tag['checked']
             
-            # Convert the modified soup back to a string (this is our question field)
+            # Convert the modified soup back to a string
+            # Use str(soup) so that any literal newlines in code blocks remain, then re-escape them to &#10;
             processed_html = str(soup)
+            processed_html = processed_html.replace("\n", "&#10;")
             
             # Compute checksum for the processed (question) content so duplicates can be avoided.
             new_checksum = compute_checksum(processed_html)
@@ -122,8 +124,7 @@ def main():
             question_line = " ".join(question_field.split())
             answer_line = " ".join(answer_field.split())
             
-            # --- New Section: Extract the answer choices ---
-            # Parse the answer file to extract each answer's text from elements with class "answer_text"
+            # --- Extract the answer choices ---
             soup_choices = BeautifulSoup(answer_field, "html.parser")
             answer_text_divs = soup_choices.select(".answers_wrapper .answer_text")
             choices_list = [div.get_text(strip=True) for div in answer_text_divs]
