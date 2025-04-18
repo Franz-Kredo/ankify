@@ -7,6 +7,8 @@ Converts Canvas quiz to Anki Flashcards
 
 ## Prerequisites
 - Have all choice labels on your custom Anki Card
+- Add the Code Highlight Anki Add-on [Plugin url](https://ankiweb.net/shared/info/1415523481)
+    - Addon code: 1415523481
 
 ## How to use Ankify
 1. Open Canvas and find quiz answers
@@ -15,5 +17,3 @@ Converts Canvas quiz to Anki Flashcards
 4. Run `ankify.py`
 5. Import to Anki from `anki_import` dir (remember to map each question when importing)
 6. Now you should have your flashcards
-
-
