@@ -15,7 +15,8 @@ Converts Canvas quiz to Anki Flashcards
 2. Find the element with the id of "questions" and copy it
 3. Paste the html into `/raw_html_splitter/raw_quiz_html/<name-of-your-file>.txt`
 4. Do this for all the quizzes you want to Ankify
-5. Copy all files within `/raw_html_splitter/split_quiz_html` to `/answers_html`
-6. Run `ankify.py`
-7. Import to Anki from `anki_import` dir (remember to map each question when importing)
-8. Now you should have your flashcards
+5. Run `raw_html_splitter/splitter.py`
+6. Copy all files within `/raw_html_splitter/split_quiz_html` to `/answers_html`
+7. Run `ankify.py`
+8. Import to Anki from `anki_import` dir (remember to map each question when importing)
+9. Now you should have your flashcards
